@@ -26,7 +26,7 @@ const VisualizerPage: React.FC = () => {
   };
 
   return (
-    <div style={{ padding: 20 }}>
+    <div style={{ padding: 20, top: "0px", position: "absolute", alignContent: "center"}}>
       <h1>Seismic Visualizer Prototype</h1>
       <p>Select dataset, level, slice type & number.</p>
 
